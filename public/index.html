@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Университет</title>
+	<link rel="stylesheet" href="/styles.css">
+	<link rel="icon" type="image/png" href="/owl.png">
+</head>
+<body>
+	<nav class="navbar">
+        <div class="container">
+            <a href="#" class="navbar-brand" id="logo">
+				<span class="highlighted-text" href="#">ЯрГУ </span> Connect</span>
+			  </a>
+				<div class="navbar-wrap">
+					<ul class="navbar-menu"></ul>
+					<a class="rasp" style="display: none;" href="/schedule">Расписание</a>
+					<a class="callback" href="#">Войти</a>
+					<a class="callback2" style="display: none;" href="#">Выйти</a>
+				</div>	  
+        </div>
+    </nav>
+
+  
+	<header class="header" style="background-color: #F5F0EA;">
+		<div class="container">
+			<div class="row">
+				<div class="header-content">
+					<h1>Управляйте учебным процессом вместе с нашим университетом</h1>
+					<h4>Регистрируйтесь на нашем сайте в качестве студента или преподавателя и получайте доступ к удобному функционалу для составления расписания, выставления оценок и контроля за учебным процессом. Управляйте своим временем и учебными достижениями вместе с нами!</h4>
+					
+					<section class="section">
+						<button class="btn_main">Регистрация</button>
+					</section>
+
+					<div class="modal">
+						<div class="modal__main">
+							<h1 class="modal__title">Регистрация</h1>
+							
+							<div id="root"></div>
+
+							<button class="btn_close">&#10006;</button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		<div class="cart">
+			<img src="./books.png" class="cart__image cart_books">
+			<img src="./schedule.png" class="cart__image cart_schedule">
+		</div>			  
+	</header>
+
+	<script src="/script.js"></script>
+	<script type="module" src="button.js"></script>
+	<script src="/scheduleLink.js"></script>
+	<script src="/home.js"></script>
+
+</body>
+</html>

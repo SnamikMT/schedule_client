@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расписание</title>
+    
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" type="image/png" href="/owl.png">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="navbar-brand" id="logo">
+				<span class="highlighted-text">ЯрГУ </span> Connect</span>
+			  </a>
+				<div class="navbar-wrap">
+					<ul class="navbar-menu"></ul>
+					<a class="callback2" href="#">Выйти</a>
+				</div>	  
+        </div>
+    </nav>
+
+    <h1 class="schedule_h1">Расписание текущего семестра</h1>
+    <div id="schedule-container">
+        <table id="schedule-table">
+            <thead>
+                <tr>
+                    <th>Дни недели</th>
+                    <th>Пара</th>
+                    <th class="group-header1">ИВТ-11БО</th>
+                    <th class="group-header1">ИВТ-12БО</th>
+                    <th class="group-header1">ИВТ-13БО</th>
+
+                    <th class="group-header2">ИТ-11БО</th>
+                    <th class="group-header2">ИТ-12БО</th>
+
+                    <th class="group-header3">ПИ-11БО</th>
+                    <th class="group-header3">ПИ-12БО</th>
+
+                    <th class="group-header4">ИВТ-21БО</th>
+                    <th class="group-header4">ИВТ-22БО</th>
+                    <th class="group-header4">ИВТ-23БО</th>
+
+                    <th class="group-header5">ИТ-21БО</th>
+                    <th class="group-header5">ИТ-22БО</th>
+
+                    <th class="group-header6">ПИЭ-21БО</th>
+                    <th class="group-header6">ПИЭ-22БО</th>
+
+                    <th class="group-header7">ИВТ-31БО</th>
+                    <th class="group-header7">ИВТ-32БО</th>
+
+                    <th class="group-header8">ИТ-31БО</th>
+                    <th class="group-header8">ИТ-32БО</th>
+
+                    <th class="group-header9">ПИЭ-31БО</th>
+                    <th class="group-header9">ПИЭ-32БО</th>
+
+                    <th class="group-header10">ИВТ-41БО</th>
+                    <th class="group-header10">ИВТ-42БО</th>
+
+                    <th class="group-header11">ИТ-41БО</th>
+                    <th class="group-header11">ПИЭ-41БО</th>
+                    <th>Числитель</th>
+                    <th>Знаменатель</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="5">Понедельник</td>
+                    <td>1</td>
+                    <td class="max-width-cell" colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="5">Вторник</td>
+                    <td>1</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td class="max-width-cell" colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="5">Среда</td>
+                    <td>1</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="5">Четверг</td>
+                    <td>1</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="5">Пятница</td>
+                    <td>1</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="5">Суббота</td>
+                    <td>1</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button id="edit-button" class="button button-primary">Редактировать</button>
+    <button id="save-button" class="button button-secondary" disabled>Сохранить</button>
+
+    <script src="schedule.js"></script>
+    <script src="/script-schedule.js"></script>
+    <script src="/home.js"></script>
+</body>
+</html>
